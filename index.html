@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lustro | Interactive Web Studio</title>
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts: Inter for a clean, professional look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Custom Cursor Follower -->
+    <div id="cursor-follower"></div>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo magnetic-element">
+                <a href="#">Lustro</a>
+            </div>
+            <ul class="magnetic-element">
+                <li><a href="#templates">Templates</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">
+                    <span>We build</span>
+                    <span><em>extraordinary</em> digital</span>
+                    <span>experiences.</span>
+                </h1>
+                <p class="reveal-text-p">
+                    <span>A design and development studio focused on creating websites</span>
+                    <span>that leave a lasting impression.</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- Templates Section -->
+        <section id="templates" class="showcase-section">
+            <h2 class="reveal-text"><span>Featured Templates</span></h2>
+            <div class="template-grid">
+                <!-- Template 1 -->
+                <div class="template-card magnetic-element">
+                    <img src="https://placehold.co/600x400/000000/ffffff?text=Project+Alpha" alt="Template Preview" onerror="this.onerror=null;this.src='https://placehold.co/600x400/000/fff?text=Error';">
+                    <div class="card-info">
+                        <h3>Project Alpha</h3>
+                        <span>Corporate Site</span>
+                    </div>
+                </div>
+                <!-- Template 2 -->
+                <div class="template-card magnetic-element">
+                    <img src="https://placehold.co/600x400/000000/ffffff?text=Project+Beta" alt="Template Preview" onerror="this.onerror=null;this.src='https://placehold.co/600x400/000/fff?text=Error';">
+                    <div class="card-info">
+                        <h3>Project Beta</h3>
+                        <span>Portfolio</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Large Marquee Text -->
+        <section class="marquee">
+            <div class="marquee-content">
+                <span>DESIGN</span> &mdash; <span>DEVELOPMENT</span> &mdash; <span>DEPLOYMENT</span> &mdash; 
+                <span>DESIGN</span> &mdash; <span>DEVELOPMENT</span> &mdash; <span>DEPLOYMENT</span> &mdash; 
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="reveal-text">
+                <span>Have a project?</span>
+                <span>Let's talk.</span>
+            </h2>
+            <div class="contact-button-container">
+                <a href="mailto:simonbusgren@gmail.com" class="cta-button magnetic-element">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Lustro Interactive Studio</p>
+    </footer>
+
+    <!-- JavaScript for Animations -->
+    <script src="script.js"></script>
+</body>
+</html>
